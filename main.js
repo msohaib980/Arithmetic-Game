@@ -20,12 +20,12 @@ function init(){
 //crating Random Numbers
 function creatingNumbers(){
   // var operator = ['-','+']
-  randomOperator = Math.floor(Math.random()*2)
+  // randomOperator = Math.floor(Math.random()*2)
   randNum1 = Math.floor(Math.random()*9+1)
   randNum2 = Math.floor(Math.random()*9+1)
   document.getElementById('random1').textContent=randNum1;
   document.getElementById('random2').textContent=randNum2;
-  randomSum = randNum1  + randNum2
+  randomSum = randNum1 + randNum2
   console.log(randomSum);
 }
 
