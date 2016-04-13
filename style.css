@@ -1,11 +1,21 @@
 body{
   font-size: 18px;
+  background-color: #573B31;
 }
+
 #game {
 
   width: 300px;
   height: 300px;
   /*border: solid 2px red;*/
+
+}
+#game, #numbers {
+
+  width: auto;
+  height: auto;
+  border: solid 2px grey;
+  font-size: 20px;
 
 }
 
@@ -17,6 +27,7 @@ body{
 }
 h1{
   text-align: center;
+  margin-top:100px;
 }
 #numButtons{
  width: 150px;
@@ -26,15 +37,15 @@ h1{
  padding: 10px;
 }
 
-#scoreboard {
-    /*border: 1px solid black;*/
+#scorecontainer #scoreboard {
+    border: 1px solid grey;
     border-radius: 25px;
     background: transparent;
     padding: 20px;
-    width: 200px;
-    height: 150px;
-    /*margin-left: 1000px;
-    margin-bottom: 100px;*/
+    width: auto;
+    height: auto;;
+    margin-left: 50px;
+    color: black;
 
 }
 #numbers{
@@ -44,7 +55,7 @@ h1{
 .btn{
   height: 40px;
   width:  40px;
-  /*border: solid 2px red;*/
+  border: solid 2px grey;
   margin-bottom: 10px;
   font-size: 18px;
   font-style: oblique;
@@ -56,10 +67,12 @@ h1{
     margin-top: 200px;
 }
 #answer{
-  height: auto;
-  width:  auto;
-  /*border: solid 2px red;*/
+  /*height: auto;
+  width:  auto;*/
   margin-bottom: 10px;
   font-size: 12px;
   font-style: oblique;
+  margin-top: 28%;
+margin-left: 32%;
+
 }
