@@ -1,16 +1,57 @@
+body{
+  font-size: 18px;
+}
+#game {
 
+  width: 300px;
+  height: 300px;
+  /*border: solid 2px red;*/
 
-
-#random1 ,#random2{
-  border: 1px solid red;
-  width: 10px;
-  height: 20px;
 }
 
 
-
+#random1 ,#random2{
+  width: 10px;
+  height: 20px;
+  text-align: : center;
+}
+h1{
+  text-align: center;
+}
 #numButtons{
-  border: 1px solid white;
-  width: 100px;
-  height: 200px;
+ width: 150px;
+ height: 150px;
+ margin: 0 auto;
+ text-align: center;
+ padding: 10px;
+}
+
+#scoreboard {
+    /*border: 1px solid black;*/
+    border-radius: 25px;
+    background: transparent;
+    padding: 20px;
+    width: 200px;
+    height: 150px;
+    /*margin-left: 1000px;
+    margin-bottom: 100px;*/
+
+}
+#numbers{
+  text-align: center;
+}
+
+.btn{
+  height: 40px;
+  width:  40px;
+  /*border: solid 2px red;*/
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-style: oblique;
+}
+.container{
+    justify-content: center;
+    display: flex;
+    flex-direction:row;
+    margin-top: 200px;
 }
